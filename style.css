@@ -1,0 +1,97 @@
+body {
+    background: #ffffff;
+    font-family: Arial;
+}
+
+.menu {
+    width: 90%;
+    background: #1506ef;
+    padding: 0;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li a {
+    display: block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu li a:hover {
+    background: #ffffff;
+}
+.box.hindi{
+    background-color: blueviolet;
+}
+.box.english{
+    background-color: brown;
+}
+
+
+.box.primary{
+    background-color: rgb(255, 0, 195);
+}
+.box.middle{
+    background-color: #2873e5;
+}
+.box.high{
+    background-color: rgb(213, 115, 10);
+}
+.submenu,
+.inner-submenu {
+    display: none;
+    background: #c70707ac;
+    padding: 10px;
+}
+.show {
+    display: block;
+}
+
+.submenu a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px;
+    border-bottom: 1px solid #7fffd4;
+}
+
+.submenu a:hover {
+    background: #2656e7;
+}
+
+.inner-submenu a {
+    padding-left: 45px;
+}
+
+.box{
+    padding: 15px;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    cursor: pointer;
+    width: 90%;
+    font-weight: bold;
+
+    box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.3)
+    0 6px 0 rgba(0,0,0,0.25)
+    0 12px 25px rgba(0,0,0,0.4);
+
+    transition: all 0.2s ease;
+}
+.box:hover {
+    transition: translateY(2px);
+    box-shadow:
+    0 6px 0 rgba(0,0,0,0.25)
+    0 12px 25px rgba(0,0,0,0.45);
+}
+.box:active {
+    transform: translateY(2px);
+    box-shadow:
+    0 2px 0 rgba(0,0,0,0.3)
+    0 4px 10px rgba(0,0,0,0.3);
+
+}
